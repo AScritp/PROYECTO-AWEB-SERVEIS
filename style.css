@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito:ital,wght@0,300;0,600;1,700&family=Roboto+Slab:wght@400;500&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear
+}
