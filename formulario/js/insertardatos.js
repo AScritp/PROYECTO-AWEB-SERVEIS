@@ -7,7 +7,7 @@ $(document).ready(function(){
 
   function SendFormGoogleSheets() {
     $.ajax({
-      url: 'https://script.google.com/macros/s/AKfycbzzNkxO2FENHO_g5WAMlgFLrq6JfUsM8b2fX6ReUruvilyni3IkxWCQCdsz3bU4p1weBg/exec',
+      url: 'https://script.google.com/macros/s/AKfycbxRPc0QevvIPaXdorzDD8_z6laBDQ1r90LdZts9V61A8iwX-oYFPRVg-YlosIEpgYfNsA/exec',
       type: 'post',
       data: $('#formulario-pago').serializeArray(),
       success: function(){
